@@ -20,14 +20,14 @@ Para mas información revisar:
 http://orientacion.sunat.gob.pe/index.php?option=com_content&view=article&id=1899:informacion-de-interes&catid=259:factura-electronica-desde-sistemas-contribuyente&Itemid=468
 
 2. Ahora dentro del proyecto, buscar un archivo llamado "app.config". Buscar esta parte:
-<pre>
+```xml
 <endpoint address="https://www.sunat.gob.pe:443/ol-ti-itcpgem-beta/billService"
                 binding="basicHttpBinding" bindingConfiguration="BillServicePortBinding"
                 contract="DocumentosElectronicoSunat.billService" name="BillServicePort" />
-</pre>
+```
 Y reemplazarla por:
 
-<pre>
+```xml
 <endpoint address="https://www.sunat.gob.pe:443/ol-ti-itcpgem-beta/billService"
                 binding="basicHttpBinding" bindingConfiguration="BillServicePortBinding"
                 contract="DocumentosElectronicoSunat.billService" name="BillServicePort" >
@@ -40,7 +40,7 @@ Y reemplazarla por:
                 </wsse:Security>
               </headers>
             </endpoint> 
-</pre>
+```
 
 MODDATOS es un usuario de pruebas, no necesita certificados ni nada, pero para los procesos de homologación y producción si los vas a necesitar
 
