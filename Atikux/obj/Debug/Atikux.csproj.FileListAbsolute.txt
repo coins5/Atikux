@@ -1,0 +1,6 @@
+c:\users\hp - pc\documents\visual studio 2012\Projects\Atikux\Atikux\bin\Debug\Atikux.exe.config
+c:\users\hp - pc\documents\visual studio 2012\Projects\Atikux\Atikux\bin\Debug\Atikux.exe
+c:\users\hp - pc\documents\visual studio 2012\Projects\Atikux\Atikux\bin\Debug\Atikux.pdb
+c:\users\hp - pc\documents\visual studio 2012\Projects\Atikux\Atikux\obj\Debug\Atikux.csprojResolveAssemblyReference.cache
+c:\users\hp - pc\documents\visual studio 2012\Projects\Atikux\Atikux\obj\Debug\Atikux.exe
+c:\users\hp - pc\documents\visual studio 2012\Projects\Atikux\Atikux\obj\Debug\Atikux.pdb
